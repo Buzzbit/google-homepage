@@ -9,6 +9,11 @@ a {
     font-size:13px;
     text-decoration: none;
 }
+
+section img{
+    padding-left:2px;
+    
+}
 .center{
     margin: auto;
     width: 20%;
@@ -34,6 +39,11 @@ input {
     margin:auto;
     position: relative;
     right:100px;
+    border-radius: 3px;
+  box-shadow: 1px 1px 1px #b3b3b3;    
+}
+input:hover {
+    box-shadow: 2px 4px 4px #b3b3b3;
 }
  input[type="button"] {
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
@@ -66,7 +76,7 @@ footer {
 #fbar {
     background: #f2f2f2;
     line-height: 40px;
-    width:100%;
+    width:100%; 
     border-top: 1px solid #e4e4e4;
     position: fixed;
     bottom:17px;
